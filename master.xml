@@ -7,7 +7,7 @@
 </listeners>
 
   <test thread-count="5" name="Test">
-  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
   <parameter name="os" value="windows"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"/> 
