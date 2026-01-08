@@ -16,10 +16,9 @@ public class HomePage extends BasePage
 		
 	}
 	//Locators
-	@FindBy(xpath="//span[normalize-space()='My Account']") 
-	WebElement lnkMyaccount;
+@FindBy(xpath="//span[normalize-space()='My Account']") 
+WebElement lnkMyaccount;
 	
-
 @FindBy(xpath="//span[normalize-space()='My Account']") 
  WebElement myAccount;
 @FindBy(xpath="//a[normalize-space()='Register']") 
